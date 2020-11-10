@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ :root {
+ 
+     -- vermelha: #e50914;
+     --preta: #141414;
+ }
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+
+}header .logo{
+    margin-left: 5px;
+    color: #e50914;
+    font-family: Arial black, Helvetica, sans-serif;
+    font-size: 40px;
+}
+header nav a{
+    text-decoration: none;
+    color:#aaa;
+    margin-right: 10px;
+
+}
+ header nav a:houver{
+     color: #ffffff;
+ }
+
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+/* filme principa */
+
+.filme-principal{
+    font-size: 16px;
+    background-image:linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('/img/vik.jpg');
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40;
+}
+.filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    margin-right: 15px;
+    padding: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+
+    
+}
+.botao:houve{{
+    background-color: white;
+    color: black;
+}
