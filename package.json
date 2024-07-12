@@ -1,0 +1,22 @@
+{
+   "name": "github-actions",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+
+   "script": {
+    "test": "echo \"test running .....\"",
+    "build": "echo \"buid running...... \"",
+    "deploy": "echo \"Deploying new build to cloud server...\""
+   },
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ary-Leal/netflix_dio_html/GitHub+actions.git"
+   },
+   "keywords": [],
+   "author": "ariosto",
+   "license":"ISC",
+   "bugs": "https://github.com/Ary-Leal/netflix_dio_html/GitHub+actions.git"
+
+
+}
