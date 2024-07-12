@@ -1,7 +1,7 @@
 function AssistirClip (){
-    window.location.href = "https://www.youtube.com/watch?v=cnqV3wsZlpo" ;
+    window.location.href = "https://www.themoviedb.org/movie/533535-deadpool-wolverine#play=hsGRm72OSXI" ;
 }
 
 function Info (){
-    window.location.href = "https://www.themoviedb.org/tv/87739-the-queen-s-gambit?language=pt-BR";
+    window.location.href = "https://www.themoviedb.org/movie/533535-deadpool-wolverine";
 }
